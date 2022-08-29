@@ -11,8 +11,8 @@ public class Vehicles {
     public static void main(String[] args) {
         Cars car=new Cars();
         car.go();
-        System.out.println(car.doors);
-        System.out.println(car.wheels);
+        System.out.println(car.doors);//To get the doors of the car = 4
+        System.out.println(car.wheels);////To get the wheels of the car = 4
     }
 }
 
